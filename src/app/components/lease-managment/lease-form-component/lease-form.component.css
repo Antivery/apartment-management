@@ -1,0 +1,21 @@
+.form-container {
+    form {
+        width: 30rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .button-container {
+            width: 27rem;
+            button {
+                width: 8rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.lease-management-container {
+    display: flex;
+    justify-content: center;
+
+    mat-card {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 70rem;
+    
+        .mat-card-header {
+            display: flex;
+            gap: 1rem;
+        
+            button {
+                width: 6rem;
+            }
+        }
+    }    
+}

@@ -1,0 +1,12 @@
+<h2 mat-dialog-title>Lease Details</h2>
+<mat-dialog-content>
+  <p><strong>Property:</strong> {{ data.propertyName }}</p>
+  <p><strong>Tenant:</strong> {{ data.tenantName }}</p>
+  <p><strong>Start Date:</strong> {{ data.startDate }}</p>
+  <p><strong>End Date:</strong> {{ data.endDate }}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="updateLeaseDetails()">Update</button>
+  <button mat-button (click)="deleteLease()">Delete</button>
+  <button mat-button (click)="closeDialog()">Close</button>
+</mat-dialog-actions>

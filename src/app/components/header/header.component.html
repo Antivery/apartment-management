@@ -1,0 +1,10 @@
+<div class="header-container">
+    <p>Apartment Management</p>
+    <div class="header-nav">
+        <ul *ngFor="let navItem of navItems">
+            <li class="nav-item">
+                <a [href]="navItem.path">{{ navItem.name }}</a>
+            </li>
+        </ul>
+    </div>
+</div>

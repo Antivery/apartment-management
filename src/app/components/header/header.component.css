@@ -1,0 +1,15 @@
+.header-container {
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 2rem;
+
+    .header-nav {
+        display: flex;
+
+        ul {
+            list-style-type: none;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<div class="lease-management-container">
+  <mat-card>
+    <div class="mat-card-header">
+      <mat-card-title>Select a Lease</mat-card-title>
+      <button mat-button (click)="addNewLease()">Create A New Lease</button>
+    </div>
+      <mat-selection-list #leasesList>
+        <mat-list-option *ngFor="let lease of leases" [value]="lease" (click)="openLeaseDetails(lease)">
+          {{ lease.propertyName }} - {{ lease.tenantName }} ({{ lease.startDate }} to {{ lease.endDate }})
+        </mat-list-option>
+      </mat-selection-list>
+  </mat-card>
+</div>
+
+
