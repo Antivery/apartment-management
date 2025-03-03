@@ -5,6 +5,18 @@
     padding-right: 1rem;
     padding-left: 2rem;
 
+    a {
+        text-decoration: none;
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 20px;
+        a {
+            text-decoration: none;
+        }
+    }
+
     .header-nav {
         display: flex;
 
